@@ -1,0 +1,15 @@
+.nav-bar{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-bar a{
+    text-decoration:underline;
+    text-underline-offset: .5rem;
+    display:block;
+    min-width: 100px;
+    padding: 25px;
+    font-size: 2rem;
+    text-align: center;
+}

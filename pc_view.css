@@ -1,0 +1,105 @@
+@media (min-width:426px){
+
+    .title-area{
+        padding-top: 5%;
+    }
+    
+    .title-area h1{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .btn-container{
+        position: absolute;
+        width: 100%;
+        bottom: 15%;
+        display: flex;
+        justify-content: center; 
+        height: 10%;
+    }
+    
+    #start-btn{
+        width: 25%;
+        border-radius: 20px;
+        font-size: 3rem;
+        background-color: rgb(3, 161, 252);
+        border: none;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .content-wrap{
+        display: flex;
+        flex-direction: column;
+        row-gap: 7rem;
+    }
+
+    .option-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .question-area{
+        padding: 40px 5px 0;
+    }
+
+    .question-area  h1{
+        text-align: center;
+    }
+
+    .option{
+        border: 1px solid;
+        width: 75%;
+        height: 100px;
+        margin: auto;
+        min-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: monospace;
+        padding: 30px 5px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, .05);
+    }
+
+    .continue-btn-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #continue-btn{
+        min-width: 15%;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        background-color: rgb(172, 218, 255);
+        border: none;
+        padding: 10px;
+        border: 1px solid;
+        
+    }
+
+    .end-wrapper{
+        text-align: center; 
+        display: flex;
+        flex-direction: column;
+        padding: 50px 5px;
+        row-gap: 100px;
+    }
+
+    .quiz-end-page .end-text{
+        font-size: 2rem;
+    }
+
+    .quiz-end-page .end-score{
+        font-size: 3.5rem;
+    }
+}
+

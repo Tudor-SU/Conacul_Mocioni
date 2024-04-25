@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Conacul Mocioni</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pc_view.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <a href="index.html">Quiz</a>
+        <a href="gallery.html">Galerie</a>
+    </div>
+
+   <div class="quiz-start-page">
+        <div class="title-area">
+            <h1>QUIZ GAME</h1>
+            <h1>Conacul Mocioni</h1>
+        </div>
+
+        <div class="btn-container">
+            <button id="start-btn">Start</button>
+        </div>
+   </div>
+   <div class="quiz-content-page hidden">
+        <div class="content-wrap">
+            <div class="question-area">
+                <h1 id="quiz-progress"></h1>
+                <h1 id="quiz-question"></h1>
+            </div>
+
+            <div class="option-wrap">
+                <div id="op1" class="option"><p></p></div>
+                <div id="op2" class="option"><p></p></div>
+                <div id="op3" class="option"><p></p></div>
+                <div id="op4" class="option"><p></p></div>
+            </div>
+
+            <div class="continue-btn-container">
+                <button id="continue-btn" class="hidden">Continuare</button>
+            </div>
+        </div>
+   </div>
+   <div class="quiz-end-page">
+        <div class="end-wrapper">
+            <h1 class="end-text"></h1>
+            <h1 class="end-score"></h1>
+        </div>
+   </div>
+
+   <script type="module" src="app.js"></script>
+</body>
+</html>
