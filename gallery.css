@@ -26,12 +26,3 @@ body{
     color: rgba(233,233,180,0.75);
     font-size: 1.5rem;
 }
-
-#loading{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-}
